@@ -1,3 +1,12 @@
+"""
+Created on 14 November 2016
+@author: Charlotte Alexandra Wilson
+
+Last revision: 14 Nov 2016 
+
+Chromosome attributes set and retrieved here using the getter and setter decorator
+"""
+
 class Chromosome():
 	fitness = 0;
 	chromoString = "boop";
