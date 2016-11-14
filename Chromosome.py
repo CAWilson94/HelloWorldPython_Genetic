@@ -1,3 +1,5 @@
+from random import randint
+
 """
 Created on 14 November 2016
 @author: Charlotte Alexandra Wilson
@@ -5,6 +7,7 @@ Created on 14 November 2016
 Last revision: 14 Nov 2016 
 
 Chromosome attributes set and retrieved here using the getter and setter decorator
+
 """
 
 class Chromosome():
@@ -34,4 +37,12 @@ class Chromosome():
 	def fitness(self,fitness):
 		self.fitness = fitness;
 
-	
+	def genRandomGene():
+		print(randint(32,122));
+		randomString = randint(32,122);
+		randomGene = chr(randomString);
+		print(randomGene);
+
+	#def randomChromosome():
+
+	genRandomGene();
